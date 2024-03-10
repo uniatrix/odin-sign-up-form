@@ -58,11 +58,8 @@ body {
 
 .second h3 {
   margin-left: 50px;
-  margin-top: 15px;
+  padding-top: 15px;
 }
-
-/* .third {
-} */
 
 input {
   width: 200px;
@@ -78,4 +75,35 @@ input:focus {
 
 input:invalid {
   border: 1px solid red;
+}
+
+label {
+  font-size: 10px;
+  color: rgb(131, 131, 136);
+}
+
+button {
+  font-size: 10px;
+}
+
+#error {
+  color: red;
+  font-size: 10px;
+  margin: 1px;
+}
+
+.btn-green {
+  background-color: hsl(41, 77%, 78%);
+  font-size: 13px;
+  color: black;
+  text-shadow: 1px 1px white;
+  border: 1px solid hsl(36, 50%, 60%);
+  border-radius: 10px;
+  height: 37px;
+  width: 150px;
+}
+
+.third {
+  margin-top: 15px;
+  margin-left: 50px;
 }
