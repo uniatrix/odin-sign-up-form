@@ -1,10 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 @font-face {
   font-family: Norse-Bold;
   src: url(../fonts/Norse-Bold.otf);
-}
-
-h1 {
-  font-family: Norse-Bold, sans-serif;
 }
 
 .main {
@@ -15,10 +17,27 @@ h1 {
 }
 
 .left {
-  background-image: url(./images/pudding.jpg);
   width: 35vw;
+  background-image: url(./images/pudding.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  /* font-family: Norse-Bold, sans-serif; */
 }
 .right {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+}
+
+.first {
+  height: 33vh;
+}
+
+.second {
+  height: 33vh;
+}
+
+.third {
+  height: 33vh;
 }
