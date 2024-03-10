@@ -1,12 +1,8 @@
-* {
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-@font-face {
-  font-family: Norse-Bold;
-  src: url(../fonts/Norse-Bold.otf);
+  font-family: "Roboto", sans-serif;
 }
 
 .main {
@@ -23,21 +19,63 @@
   background-position: center;
   background-repeat: no-repeat;
   color: white;
-  /* font-family: Norse-Bold, sans-serif; */
 }
 .right {
   display: flex;
   flex-direction: column;
+  background-color: #f1f1f1;
+  width: 65vw;
 }
 
 .first {
-  height: 33vh;
+  height: 25vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-left: 5%;
+  margin-bottom: 5%;
 }
 
 .second {
   height: 33vh;
+  background-color: white;
 }
 
-.third {
-  height: 33vh;
+.form-main-div {
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+  margin-top: 10px;
+  width: 40%;
+  justify-content: space-between;
+}
+
+.form-div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.second h3 {
+  margin-left: 50px;
+  margin-top: 15px;
+}
+
+/* .third {
+} */
+
+input {
+  width: 200px;
+  border: 1px solid #ebe9e5;
+  height: 25px;
+  border-radius: 5px;
+}
+
+input:focus {
+  border: 1px solid blue;
+  outline: none;
+}
+
+input:invalid {
+  border: 1px solid red;
 }
