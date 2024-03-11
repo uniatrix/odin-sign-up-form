@@ -19,7 +19,10 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   color: white;
+  display: flex;
+  flex-direction: column;
 }
+
 .right {
   display: flex;
   flex-direction: column;
@@ -28,17 +31,15 @@ body {
 }
 
 .first {
-  height: 25vh;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-end;
-  margin-left: 5%;
-  margin-bottom: 5%;
+  height: 27vh;
+  margin-left: 4%;
+  margin-top: 3%;
 }
 
 .second {
-  height: 33vh;
+  height: 26vh;
   background-color: white;
+  box-shadow: 2px 5px #e1e0df;
 }
 
 .form-main-div {
@@ -92,7 +93,7 @@ button {
   margin: 1px;
 }
 
-.btn-green {
+.btn-yellowish {
   background-color: hsl(41, 77%, 78%);
   font-size: 13px;
   color: black;
@@ -101,9 +102,58 @@ button {
   border-radius: 10px;
   height: 37px;
   width: 150px;
+  font-weight: bold;
+  box-shadow: 2px 5px #e1e0df;
 }
 
 .third {
   margin-top: 15px;
   margin-left: 50px;
+}
+
+.hyperlink {
+  margin-left: 50px;
+  margin-top: 25px;
+  font-size: 12px;
+}
+
+.login {
+  color: hsl(36, 50%, 60%);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.a-footer {
+  color: white;
+}
+
+.p-footer {
+  font-size: 12px;
+  text-align: center;
+}
+
+.forImage {
+  height: 40vh;
+  display: flex;
+  align-items: flex-end;
+}
+
+.forFooter {
+  height: 60vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: 100%;
+}
+
+.logo {
+  height: 250px;
+}
+
+.semi-transparent {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.3);
 }
