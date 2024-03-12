@@ -4,7 +4,7 @@ Welcome to the Waffle Puddings Sign-up Form project, a part of The Odin Project'
 
 ## Project Description
 
-In this project, you will create a simple sign-up form for Waffle Puddings, a fictional dessert delivery service. The form will collect basic information from users interested in signing up for the service, such as their name, email address, and phone number.
+Create a simple sign-up form. The form will collect basic information from users interested in signing up for an account, such as their name, email address, phone number and password.
 
 ## Project Objectives
 
@@ -19,7 +19,3 @@ Sign-up Form: Create a form with input fields for name, email, phone number, and
 Validation: Implement client-side form validation to ensure that users provide valid information before submission.
 Feedback: Provide users with feedback on their input, such as displaying error messages for invalid entries.
 Submission Handling: Handle form submission, processing the user's input, and potentially storing it for further use.
-
-## License
-
-This project is licensed under the MIT License. Feel free to use, modify, and distribute the code for educational purposes.
